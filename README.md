@@ -3,13 +3,6 @@ King of the hill game on the ark blockchain
 
 The goal of this repo is to define the basic idea of how a king of the hill game could work on the Ark blockchain. 
 
-Since Ark supports sending 64 chars of free text with every transaction it should be possible to setup something similar on the Ark blockchain!
-
-- One Wallet would be the 'battleground'
-- Every transaction sent to this wallet would be an 'entry'
-- The vendorfield of every transaction would define the entrys properties
-
-
 ### Similar games which could inspire this game
 - [Survival Game - Create Your Wolf](https://codegolf.stackexchange.com/questions/25347/survival-game-create-your-wolf)
 
@@ -28,4 +21,9 @@ Since Ark supports sending 64 chars of free text with every transaction it shoul
 --> 1) P vs P = draw, 2) R vs R = draw 3) L vs R = Rock wins -> Transaction 2 is now the new King of the Hill since Rock crushes Lizard.
 
 # The game
+
+- One Wallet would be the 'battleground'
+- Every transaction sent to this wallet would be an 'entry'
+- The vendorfield of every transaction would define the entrys properties
+
 TODO
