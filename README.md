@@ -10,12 +10,12 @@ Since Ark supports sending 64 chars of free text with every transaction it shoul
 - The vendorfield of every transaction would define the entrys properties
 
 
-## Similar games which could inspire this game
-- (Survival Game - Create Your Wolf)[https://codegolf.stackexchange.com/questions/25347/survival-game-create-your-wolf]
+### Similar games which could inspire this game
+- [Survival Game - Create Your Wolf](https://codegolf.stackexchange.com/questions/25347/survival-game-create-your-wolf)
 
-## A basic example of a possible king of the hill game to understand the idea behing King of Ark
+### A basic example of a possible king of the hill game to understand the idea behing King of Ark
 
-**R**ock **P**aper **S**cissors **L**izard Sp**o**ck* king of the hill (rules)[https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rock_Paper_Scissors_Lizard_Spock_en.svg/2000px-Rock_Paper_Scissors_Lizard_Spock_en.svg.png]:
+**R**ock **P**aper **S**cissors **L**izard Sp**o**ck* king of the hill [rules](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rock_Paper_Scissors_Lizard_Spock_en.svg/2000px-Rock_Paper_Scissors_Lizard_Spock_en.svg.png):
 
 1) The first transaction to the wallet was with the vendorfield: PRLORPS
 
