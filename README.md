@@ -14,8 +14,8 @@ The goal of this repo is to define the basic idea of how a king of the hill game
 
 ## Properties 
 
-Not defined yet: See (Properties discussion)[https://github.com/geckogecko/King-of-Ark/issues/1]
+Not defined yet: See [Properties discussion](https://github.com/geckogecko/King-of-Ark/issues/1)
 
 ## How to win
 
-Not defined yet: See (How to win discussion)[https://github.com/geckogecko/King-of-Ark/issues/2]
+Not defined yet: See [How to win discussion](https://github.com/geckogecko/King-of-Ark/issues/2)
