@@ -13,7 +13,3 @@ The goal of this repo is to define the basic idea of how a king of the hill game
 ## Properties  and how to become the new `King of Ark`
 
 Work in progress: See [Properties discussion](https://github.com/geckogecko/King-of-Ark/issues/1)
-
-### Similar games which could inspire this game
-- [Survival Game - Create Your Wolf](https://codegolf.stackexchange.com/questions/25347/survival-game-create-your-wolf)
-- [Hunger Gaming - Eat or Die](https://codegolf.stackexchange.com/questions/25838/hunger-gaming-eat-or-die)
