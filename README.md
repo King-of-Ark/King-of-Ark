@@ -5,6 +5,7 @@ The goal of this repo is to define the basic idea of how a king of the hill game
 
 ### Similar games which could inspire this game
 - [Survival Game - Create Your Wolf](https://codegolf.stackexchange.com/questions/25347/survival-game-create-your-wolf)
+- [Hunger Gaming - Eat or Die](https://codegolf.stackexchange.com/questions/25838/hunger-gaming-eat-or-die)
 
 # The game
 
