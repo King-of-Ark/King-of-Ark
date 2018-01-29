@@ -1,14 +1,14 @@
 # King-of-Ark
 King of the hill game on the ark blockchain
 
-# The game
+# The Game
 
 - One Wallet is the `battleground`
 - Every transaction sent to this wallet is an `entry`
 - The vendorfield of every transaction defines the `entrys` properties.
 - Every new `entry` fights against the current `King of Ark` on the `battleground`. If the new entry wins -> it will become the new `King of Ark`.
 
-# How to become the new `King of Ark` ?
+# How To Become The New `King of Ark` ?
 
 Work in progress: See [Properties discussion](https://github.com/geckogecko/King-of-Ark/issues/1)
 
@@ -20,7 +20,7 @@ You are able to define two 'poperties' for your entry:
 
 ## Properties
 
-### 1) The action properties
+### 1) The Action Properties
 
 The action properties define which actions of 'Rock Paper Scissors Lizard Spock' your entry uses and in which order. 
 They are mapped to single letters the following way:
@@ -54,7 +54,7 @@ which gives the following mapping:
 - A win with **L** does **6 damage**
 
 
-### 2) The health properties
+### 2) The Health Properties
 
 The health of your entry is defined by the number of health properties your entry has. One health proeprty is defined as `+`.
 
@@ -65,11 +65,11 @@ Current `King of Ark` has the following properties:
 
  The amount of `+` is **54**. Which means the current `King of Ark` has 54 health. 
  
- ## The fight
+ ## The Fight
 
 - The fight ends if one of the two entry has 0 or less life.
 - The fight ends if the new Entry is out of attack Properties and was not able to 'kill' the current `King of Ark`. -> The current `King of Ark` stays the King.
-- If on entry is out of attack porperties the other entry can deal the rest of his attack properies for free on him.
+- If one entry is out of attack porperties the other entry can deal the rest of his attack properies for free on him.
 
 Example:
 
@@ -88,4 +88,19 @@ The fight:
 3) O (Spock) vs L (Lizard) -> L wins and does 6 damage -> 52 life left for 'King of Ark'
 ..
 ```
+
+ ## The Battlefield
+ 
+ - The first 4 letters in the `battlefields` address define a 2D grid:
+Example: `AQ32qQRFtAY8Fqyb563p2fcYBd4dMKSv5x` -> 32 x 85 grid
+
+- The last 4 numbers in the transactionID of an entry define where the entry spawns on the battlefield
+Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` -> spawn at 10;82
+
+- Entry would start to move the closest way to the current King. The count of fields they can move per turn is defined by the first letter in their `transactionID`.
+Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` a -> 1 field per turn. (b would be 2, c would be 3,..).
+
+- Entrys can 'see' 4 fields wide. If they spot another entry on their way to the current King they would attack this entry first. 
+
+- The second letter of the `transactionID` defines the number of turns the entry enters the battlefield after the entry before it.
 
