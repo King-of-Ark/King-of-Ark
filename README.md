@@ -97,10 +97,10 @@ Example: `AQ32qQRFtAY8Fqyb563p2fcYBd4dMKSv5x` -> 32 x 85 grid
 - The last 4 numbers in the transactionID of an entry define where the entry spawns on the battlefield
 Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` -> spawn at 10;82
 
-- Entry would start to move the closest way to the current King. The count of fields they can move per turn is defined by the first letter in their `transactionID`.
+- An `entry` would start to move the closest way to the current King. The count of fields they can move per turn is defined by the first letter in their `transactionID`.
 Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` a -> 1 field per turn. (b would be 2, c would be 3,..).
 
 - Entrys can 'see' 4 fields wide. If they spot another entry on their way to the current King they would attack this entry first. 
 
-- The second letter of the `transactionID` defines the number of turns the entry enters the battlefield after the entry before it.
+- The second letter of the `transactionID` defines in which turn the entry enters the battlefield. Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` s -> 19 turns after the `entry` before. 
 
