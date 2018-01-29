@@ -5,7 +5,7 @@ King of the hill game on the ark blockchain
 
 - One Wallet is the `battleground`
 - Every transaction sent to this wallet is an `entry`
-- The vendorfield of every transaction would defines the `entrys` properties.
+- The vendorfield of every transaction defines the `entrys` properties.
 - Every new `entry` fights against the current `King of Ark` on the `battleground`. If the new entry wins -> it will become the new `King of Ark`.
 
 # How to become the new `King of Ark` ?
@@ -26,11 +26,11 @@ The action properties define which actions of 'Rock Paper Scissors Lizard Spock'
 They are mapped to single letters the following way:
 
 ```
-- Rock = R
-- Paper = P
-- Scissors = S
-- Lizard = L
-- Spock = O
+Rock = R
+Paper = P
+Scissors = S
+Lizard = L
+Spock = O
 ```
 
 Example: 
@@ -44,8 +44,8 @@ These actions are now mapped against the numbers in the `transactionID` of your 
 
 Example: 
 The current `King of Ark` has the following action properties and `transactionID`:
-TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
-Properies:`PRLORPSPRLORPS`
+- TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
+- Properies:`PRLORPSPRLORPS`
 
 which gives the following mapping: 
 
@@ -60,8 +60,8 @@ The health of your entry is defined by the number of health properties your entr
 
 Example:
 Current `King of Ark` has the following properties:
-TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
-Properies:`PRLORPSPRLORPSRLORPS++++++++++++++++++++++++++++++++++++++++++++`
+- TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
+- Properies:`PRLORPSPRLORPSRLORPS++++++++++++++++++++++++++++++++++++++++++++`
 
  The amount of `+` is **54**. Which means the current `King of Ark` has 54 health. 
  
@@ -74,12 +74,12 @@ Properies:`PRLORPSPRLORPSRLORPS++++++++++++++++++++++++++++++++++++++++++++`
 Example:
 
 Current King of Ark:
-TransactionId: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594537888`
-Properies:` SOOORS++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
+- TransactionId: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594537888`
+- Properies:` SOOORS++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 New Entry:
-TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
-Properies:` PRLORPSPRLORPS++++++++++++++++++++++++++++++++++++++++++++++++++`
+- TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
+- Properies:` PRLORPSPRLORPSRLORPS++++++++++++++++++++++++++++++++++++++++++++`
 
 The fight:
 ```
