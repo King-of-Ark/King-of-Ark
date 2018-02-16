@@ -10,15 +10,13 @@ King of the hill game on the ark blockchain
 
 # How To Become The New `King of Ark` ?
 
-Work in progress: See [Properties discussion](https://github.com/geckogecko/King-of-Ark/issues/1)
-
 The battle between every `entry` is based on [Rock Paper Scissors Lizard Spock](http://bigbangtheory.wikia.com/wiki/Rock_Paper_Scissors_Lizard_Spock)
 
 ![Rock Paper Scissors Lizard Spock image](https://upload.wikimedia.org/wikipedia/en/c/cc/Rock_paper_scissors_lizard_spock.png "Rock Paper Scissors Lizard Spock rules")
 
-You are able to define two 'poperties' for your entry:
 
-## Properties
+
+## But how can I choose which properties my entry uses during a fight ?
 
 ### 1) The Action Properties
 
@@ -65,10 +63,22 @@ Current `King of Ark` has the following properties:
 
  The amount of `+` is **54**. Which means the current `King of Ark` has 54 health. 
  
+### 3) The Health regeneration Properties
+
+The health regeneration of your entry is defined by the number of `health regeneration` properties your entry has. One health `health regeneration` property is defined as `*`.
+
+Health regeneration means: After every round your `entry` regenerates `health regeneration` amount of health
+
+Example:
+Current `King of Ark` has the following properties:
+- TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
+- Properies:`PRLORPSPRLORPSRLORPS******++++++++++++++++++++++++++++++++++++++`
+
+ The amount of `*` is **6**. Which means the current `King of Ark` regenerates 6 health after every round. 
+ 
  ## The Fight
 
 - The fight ends if one of the two entry has 0 or less life.
-- The fight ends if the new Entry is out of attack Properties and was not able to 'kill' the current `King of Ark`. -> The current `King of Ark` stays the King.
 - If one entry is out of attack porperties the other entry can deal the rest of his attack properies for free on him.
 
 Example:
@@ -97,10 +107,9 @@ Example: `AQ32qQRFtAY8Fqyb563p2fcYBd4dMKSv5x` -> 32 x 85 grid
 - The last 4 numbers in the transactionID of an entry define where the entry spawns on the battlefield
 Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` -> spawn at 10;82
 
-- An `entry` would start to move the closest way to the current King. The count of fields they can move per turn is defined by the first letter in their `transactionID`.
-Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` a -> 1 field per turn. (b would be 2, c would be 3,..).
+- An `entry` starts to move the closest way to the current King. 
 
 - Entrys can 'see' 4 fields wide. If they spot another entry on their way to the current King they would attack this entry first. 
 
-- The second letter of the `transactionID` defines in which turn the entry enters the battlefield. Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` s -> 19 turns after the `entry` before. 
+- The second letter of the `transactionID` defines in which round the entry enters the battlefield. Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` s -> 19 turns after the `entry` before. 
 
