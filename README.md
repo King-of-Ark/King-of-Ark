@@ -111,5 +111,3 @@ Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` -> spa
 
 - Entrys can 'see' 4 fields wide. If they spot another entry on their way to the current King they would attack this entry first. 
 
-- The second letter of the `transactionID` defines in which round the entry enters the battlefield. Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` s -> 19 turns after the `entry` before. 
-
