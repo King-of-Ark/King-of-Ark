@@ -76,6 +76,21 @@ Current `King of Ark` has the following properties:
 
  The amount of `*` is **6**. Which means the current `King of Ark` regenerates 6 health after every round. 
  
+ #### Special: 
+ 
+ You can also use health regeneration as a action property during a fight. The symbol for health regeneration is `H`. When you use health regeneration as action property you first regenerate the defined amount of health. Then your oponent deals his action property damage for free on you. 
+ 
+ Example:
+ 
+ Oponent: 
+- TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
+- Properies:`PRLORPSPRLORPSRLORPS******++++++++++++++++++++++++++++++++++++++`
+
+Your entry: 
+ - Properies:`PHLORPSPRLORPSRLORPS******++++++++++++++++++++++++++++++++++++++`
+ 
+ In your second turn of the fight your `entry` now regenerates 6 health and then receives 4 damage from your oponent. 
+ 
  ## The Fight
 
 - The fight ends if one of the two entry has 0 or less life.
