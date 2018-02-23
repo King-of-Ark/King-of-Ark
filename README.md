@@ -78,16 +78,16 @@ Current `King of Ark` has the following properties:
  
  #### Special: 
  
- You can also use health regeneration as a action property during a fight. The symbol for health regeneration is `H`. When you use health regeneration as action property you first regenerate the defined amount of health. Then your oponent deals his action property damage for free on you. 
+ You can also use health regeneration as a action property during a fight. The symbol for health regeneration is `H`. When you use health regeneration as action property you first regenerate the defined amount of health. Then your opponent deals his action property damage for free on you. 
  
  Example:
  
- Oponent: 
+ Opponent: 
 - TransactionId: `de74619de372bcdd245211e15c33c21f84c74e2b62158f6cd20e4e6594537888`
-- Properies:`PRLORPSPRLORPSRLORPS******++++++++++++++++++++++++++++++++++++++`
+- Properies:`PRLORPSPRLORPSRLORPSOPOO++++++++++++++++++++++++++++++++++++++`
 
 Your entry: 
- - Properies:`PHLORPSPRLORPSRLORPS******++++++++++++++++++++++++++++++++++++++`
+ - Properies:`LHSS******+++++++++++++++++++++++++++++++++++++++++++++`
  
  In your second turn of the fight your `entry` now regenerates 6 health and then receives 4 damage from your oponent. 
  
@@ -116,8 +116,7 @@ The fight:
 
  ## The Battlefield
  
- - The first 4 letters in the `battlefields` address define a 2D grid:
-Example: `AQ32qQRFtAY8Fqyb563p2fcYBd4dMKSv5x` -> 32 x 85 grid
+ - The `battlefield` is a 100 x 100 grid
 
 - The last 4 numbers in the transactionID of an entry define where the entry spawns on the battlefield
 Example: `as56df19de372bcdd245211e15c33c21sd123fsdf58f6cd20e4e6594531082` -> spawn at 10;82
